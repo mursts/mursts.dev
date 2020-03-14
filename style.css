@@ -12,11 +12,19 @@ body {
 }
 
 #introduction h1 {
-    font-size: 24px;
+    /*font-size: 24px;*/
+    font-size: 1.6rem;
     font-family: 'Montserrat';
     letter-spacing: 3px;
     /* text-transform: uppercase; */
     font-weight: bold;
+}
+
+#introduction h2 {
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Montserrat';
+    line-height: 1.5;
 }
 
 #social-icons {
