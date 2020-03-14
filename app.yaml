@@ -1,0 +1,6 @@
+runtime: python37
+
+handlers:
+- url: /(.*\.(html|txt|css))$
+  static_files: \1
+  upload: .*\.(html|txt|css)$
