@@ -1,6 +1,9 @@
-runtime: python37
+runtime: go112
 
 handlers:
 - url: /(.*\.(html|txt|css))$
   static_files: \1
   upload: .*\.(html|txt|css)$
+- url: /
+  static_files: index.html
+  upload: index.html
