@@ -1,0 +1,58 @@
+body {
+  padding-top: 50px;
+}
+
+#introduction {
+  /*padding: 20px 15px;*/
+  text-align: center;
+}
+
+#intrduction p {
+    font-size: 14px;
+}
+
+#introduction h1 {
+    font-size: 24px;
+    font-family: 'Montserrat';
+    letter-spacing: 3px;
+    /* text-transform: uppercase; */
+    font-weight: bold;
+}
+
+#social-icons {
+    /*padding-top: 10px;*/
+    /*margin-bottom: 10px;*/
+    text-align: center;
+}
+#social-icons .btn.btn-clear {
+    border: 1px solid #fff;
+}
+
+#social-icons a {
+    border: 1px solid #fff;
+    /*
+    height: 50px;
+    width: 50px;
+    */
+    color: #000;
+    background: #FFFFFF;
+    line-height: 50px;
+    /*border-radius: 50%;*/
+    display: inline-block;
+    /*margin-right: 20px;*/
+    margin: 0px 10px;
+    /*box-shadow: 0px 1px 4.7px 0.3px rgba(0, 0, 0, 0.24);*/
+} 
+
+#social-icons a i {
+    font-size: 25px;
+}
+
+#comunity {
+  /* padding: 40px 15px; */
+    text-align: center;
+}
+
+#comunity a {
+    color: #000;
+}
