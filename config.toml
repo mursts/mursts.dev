@@ -1,0 +1,71 @@
+baseurl = "/"
+title = "Site Title"
+theme = "pulp"
+canonifyurls = true
+hasCJKLanguage = true
+# pygmentsCodefences = true
+# pygmentsUseClasses = true
+# googleAnalytics = "{your tracking code}"
+
+[markup.goldmark.renderer]
+    unsafe = true # Allow user HTML tags
+
+[params]
+    author = "三浦  智  /  mursts"
+    # avatar = "avatar.jpg"
+    # avatarDescription = "My avatar description"
+    # favicon = "favicon.ico"
+
+        # I'm IT developer. Python/Go/GCP
+        #GCPUG名古屋 #Python東海
+    description = """
+愛知で活動する派遣プログラマー。
+新卒で入った会社からずっと派遣業を営む会社であちこちの社内システムにたずさわる。<br>
+仕事では主にJavaとSQLだが、PythonとGAEに出会い趣味で勉強を始める。<br>
+現在は名古屋でPythonとGCPの勉強会を主催している。<br>
+<i>#GCPUG名古屋 #Python東海</i>
+    """
+    publicationYear = "2021"
+    # listPageDateFormat = "January, 2006" # See https://gohugo.io/functions/format/
+    # singlePageDateFormat = "January 2, 2006"
+    custom_css = ["/css/custom.css"]
+    # custom_js = ["/js/custom.js"]
+
+# Make sure setting a following option for search bar to work
+[outputs]
+    section = ["JSON", "HTML"]
+    term = ["JSON", "HTML"]
+
+[[menu.main]]
+    identifier = "blog"
+    # pre = "<i class='fa fa-book-open fa-lg'></i>"
+    pre = "<i class='fas fa-pencil-alt fa-lg'></i>"
+    url = "https://blog.mursts.dev"
+    weight = 10
+
+[[menu.main]]
+    identifier = "twitter"
+    pre = "<i class='fab fa-twitter fa-lg'></i>"
+    url = "https://twitter.com/mursts"
+    weight = 20
+
+[[menu.main]]
+    identifier = "github"
+    # name = "GitHub"
+    pre = "<i class='fab fa-github-alt fa-lg'></i>"
+    url = "https://github.com/mursts"
+    weight = 30
+
+# [[menu.main]]
+#     identifier = "email"
+#     # name = "Email"
+#     pre = "<i class='fa fa-envelope fa-lg'></i>"
+#     url = "mailto:username@example.com"
+#     weight = 40
+
+[[menu.main]]
+    identifier = "facebook"
+    # name = "GitHub"
+    pre = "<i class='fab fa-facebook-f fa-lg'></i>"
+    url = "https://www.facebook.com/Satoshi.Miura81"
+    weight = 50

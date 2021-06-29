@@ -1,0 +1,8 @@
+h1 {
+  /* font-family: ui-monospace,SFMono-Regular,SF Mono,Consolas,Liberation Mono,Menlo,monospace; */
+  font-family: 'Fira Mono', monospace;
+}
+
+.avatar {
+  display: none;
+}

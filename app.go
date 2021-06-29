@@ -10,12 +10,22 @@ func handler(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprint(w, "Hello World!")
 }
 
-func main() {
-	http.HandleFunc("/hello", handler)
+// func main() {
+// 	http.HandleFunc("/hello", handler)
 
-	port := os.Getenv("port")
-	if port == "" {
-		port = "8080"
-	}
-	http.ListenAndServe(":"+port, nil)
+// 	port := os.Getenv("port")
+// 	if port == "" {
+// 		port = "8080"
+// 	}
+// 	http.ListenAndServe(":"+port, nil)
+// }
+
+
+func main() {
+    http.HandleFunc("/hello", handler)
+    port := os.Getenv("PORT")
+    if port == "" {
+        port = "8080"
+    }
+    http.ListenAndServe(":"+port, http.FileServer(http.Dir("public")))
 }
