@@ -1,5 +1,5 @@
 dispatch:
   - url: "blog.mursts.dev/*"
-    service: default
+    service: blog
   - url: "mursts.dev/*"
     service: default
