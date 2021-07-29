@@ -1,5 +1,5 @@
 baseurl = "/"
-title = "Site Title"
+title = "mursts.dev"
 theme = "pulp"
 canonifyurls = true
 hasCJKLanguage = true
